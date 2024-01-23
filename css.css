@@ -1,0 +1,633 @@
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+overflow: hidden;
+
+
+
+@font-face {
+  font-family: 'Montserrat-regular';
+  src: url('/Users/zade/Desktop/untitledsite/MonumentExtended-Ultrabold.otf') format('truetype');
+
+}
+
+
+
+@font-face {
+  font-family: 'Yoxall';
+  src: url('/Users/zade/Desktop/untitledsite/fonts/YOXALL__.TTF') format('truetype');
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+body {
+  font-family: 'Yoxall';
+  background-size: cover;
+  max-width: 100%;
+  margin: 0px;
+  color: #000000;
+  height: auto;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+  background-color: black;
+
+}
+
+.sec1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d7edf3 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec2 {
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+
+}
+
+.sec2l{
+  width: 35vw;
+  height: 100%;
+  position: sticky;
+  top: 0; /* This makes the element stick to the top */
+  z-index: 10; /* Optional: to ensure it's above other content */
+}
+
+
+.sec2l1 {
+  height: 46.5vh;
+  width: auto;
+    background-color: #e61864;
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2l2 {
+  height: 46.5vh;
+  width: auto;
+  background-color: #a5c844;
+  font-size: 140%;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2l1 img {
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.sec2l2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.sec2l2top {
+  width: 60%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  padding: 10%;
+  font-weight: normal;
+}
+
+.sec2l2bottom {
+  text-align: right;
+  width: 60%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  padding: 10%;
+  font-weight: normal;
+
+}
+
+.sec2r{
+  width: 65vw;
+  max-width: 65vw;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.sec2r img {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: -1000;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.lineup {
+  position: sticky;
+  top: 0; /* This makes the element stick to the top */
+  z-index: 10; /* Optional: to ensure it's above other content */
+}
+
+.lineupintro {
+  padding: 10% 2% 0 2%;
+  font-size: 600%;
+}
+
+
+
+.lineup1 {
+  padding: 5% 2% 30% 2%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headliner {
+  font-size: 600%;
+}
+
+.rest {
+  font-size: 300%;
+  font-weight: normal;
+  line-height: 1.3;
+  cursor: default;
+}
+
+.rest a {
+  color: white;
+}
+
+.rest a:hover  {
+  color: #a5c844;
+  transition: 0.03s;
+}
+
+.announce {
+  font-size: 200%;
+  padding: 0 2% 15% 2%;
+  transform: translateY(-130%);
+}
+
+.sec3 {
+  background-color: #a5c844;
+  height: 100vh;
+}
+
+.sec11 {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date{
+  font-weight: bold;
+  color: #231f20;
+  font-size: 150%;
+  padding: 0 0 4vh 0;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: #231f20;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+
+
+.title {
+  font-size: 350%;
+  padding-bottom: 15px;
+  font-weight: bold;
+  width: 60vw;
+}
+
+.title a {
+
+    height: 100%;
+}
+
+.title img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+.options1 {
+  background-color: white;
+  text-decoration: none;
+}
+
+.options2 {
+  background-color: white;
+}
+
+.options3 {
+  background-color: white;
+}
+
+.opbox {
+  padding: 8px 15px 8px 15px;
+  margin: 0 10px 0 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.opbox:hover {
+ background-color: #e61864;
+ color: white;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.title1 {
+  font-size:150%;
+  padding-top: 30px;
+  color:#231f20;
+}
+
+.sec4info {
+  font-size: 300%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0 0 0;
+  height: 10vh;
+}
+
+
+
+
+.marquee-wrapper{
+  background:#e61864;
+  text-align:center;
+  font-weight: bold;
+  font-size: 110%;
+  color: white;
+  z-index: 5
+
+}
+
+.marquee-wrapper2{
+  background:#1b2f50;
+  position: sticky;
+  top: 0;
+
+}
+
+
+
+.marquee-wrapper .container{
+  overflow:hidden;
+}
+.marquee-inner span{
+  float:left;
+  width: 50%;
+}
+.marquee-wrapper .marquee-block{
+  --total-marquee-items:28;
+  height: 7vh;
+  width: calc(250px * (var(--total-marquee-items)));
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.marquee-inner{
+  display: block;
+  width: 200%;
+  position: absolute;
+}
+.marquee-inner p{
+  font-weight: bold;
+  font-size: 200%;
+  color: white;
+}
+.marquee-inner.to-left{
+  animation: marqueeLeft 70s linear infinite;
+}
+
+.marquee-inner.to-right{
+  animation: marqueeRight 70s linear infinite;
+}
+
+
+
+.marquee-item{
+  width: 2.487%;
+  font-size: 200%;
+  display: inline-block;
+  margin: 0 10px;
+  float: left;
+  transition: all .2s ease-out;
+
+}
+
+.marquee-item:hover {
+  color: #e61864;
+  transition: .1s;
+}
+
+.marquee-item1{
+  width: 2.491%;
+  font-size: 200%;
+  display: inline-block;
+  margin: 0 10px;
+  float: left;
+  transition: all .2s ease-out;
+
+}
+
+.marquee-item1:hover {
+  color: #1b2f50;
+  transition: .1s;
+}
+
+@keyframes marqueeLeft{
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@keyframes marqueeRight{
+  0% {
+    left: -100%;
+  }
+  100% {
+   left: 0;
+  }
+}
+
+.hyper1 {
+  text-decoration:none;
+  color: white;
+  height: auto;
+}
+
+.af {
+  padding: 20px;
+  height: 10vh;
+  color: white;
+  overflow: hidden;
+  z-index: -100;
+
+
+}
+
+.af p {
+  position: fixed;
+  top: 0;
+  color: white;
+  z-index: -50;
+  font-size: 200%
+}
+
+.sec4 {
+  background-color: #d7edf3;
+  z-index: -3;
+  position: relative;
+  padding: 7vh 0 0 0;
+
+}
+
+.nav {
+  height: 7vh;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1.2fr 0.6fr 1.2fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: -7vh 0 0 0;
+  z-index: -1;
+
+
+}
+
+.nav1 {
+  width: 40vw;
+}
+
+.nav2 {
+  max-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+
+}
+
+.nav2 img {
+  height: 6vh;
+  object-fit: contain;
+}
+
+
+
+.nav3 {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  z-index: 200;
+  color: black;
+}
+
+.nav3p {
+  padding: 0 2% 0 2%;
+  color: black;
+}
+
+.nav3p a {
+  color: black;
+}
+
+.sec4about {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100vw;
+  line-height: 1.1;
+}
+
+.sec4aboutpic {
+  width: 50vw;
+
+}
+
+.sec4aboutpic img{
+
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 0;
+}
+
+
+.sec4aboutdes {
+
+
+  font-size: 200%;
+  font-weight: normal;
+  max-width: 50%;
+  text-align: left;
+}
+
+.sec4aboutdes p {
+  padding: 5%;
+}
+
+.faq {
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faqtitle {
+  font-size: 300%;
+  padding-top: 2%;
+}
+
+.faq {
+  list-style:none;
+  padding-left:40px;
+  padding-right:40px;
+  text-align: center;
+  li {
+    border-bottom:1px solid #999999;
+    margin-bottom:15px;
+    width: 50vw;
+    &.active {
+      .answer {
+        max-height:275px !important;
+        padding-bottom:25px;
+        transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+        text-align: center;
+      }
+      .question {
+        color:$fact-question-color-active;
+        transition:color 0.5s ease;
+        text-align: center;
+      }
+    }
+  }
+  .answer {
+    font-weight: normal;
+    font-size:16px;
+    line-height:24px;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.5s ease, padding-bottom 0.5s ease;
+  }
+  .plus-minus-toggle {
+    cursor: pointer;
+    height: 21px;
+    position: absolute;
+    width: 21px;
+    left:-40px;
+    top:50%;
+    z-index:2;
+
+    &:before,
+    &:after {
+      background: #000;
+      content: '';
+      height: 5px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 21px;
+      transition: transform 500ms ease;
+    }
+
+    &:after {
+      transform-origin: center;
+    }
+
+    &.collapsed {
+      &:after {
+        transform: rotate(90deg);
+      }
+
+      &:before {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .question {
+    color:$fact-question-color;
+    font-family:$font-sans-family;
+    font-size:20px;
+    font-weight:800;
+    text-transform:uppercase;
+    position:relative;
+    cursor:pointer;
+    padding:20px 0;
+    transition:color 0.5s ease;
+    @media screen and ($mobile) {
+      font-size:18px;
+      text-align: center;
+    }
+  }
+}
+
+.footer {
+  background-color: black;
+  height: 20vh;
+}
