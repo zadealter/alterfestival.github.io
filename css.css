@@ -23,7 +23,14 @@ overflow: hidden;
 
 }
 
-
+@font-face {
+    font-family: "Yoxall";
+    src: url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.eot");
+    src: url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f7a99b032d36050e953a170d13c8ed36.svg#Yoxall Bold Italic")format
 
 html {
   scroll-behavior: smooth;
