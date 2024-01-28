@@ -19,11 +19,9 @@ overflow: hidden;
 
 @font-face {
   font-family: 'Yoxall';
-  src: url('src: url("../../zadealter/YOXALL__.TTF') format('truetype');
+  src: url('/Users/zade/Desktop/untitledsite/fonts/YOXALL__.TTF') format('truetype');
 
 }
-
-
 
 html {
   scroll-behavior: smooth;
@@ -59,13 +57,24 @@ body {
   justify-content: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .sec1 {
+    align-items: flex-start;
+    padding: 20% 0 0 0;
+  }
+}
+
 .sec2 {
 
   display: flex;
   flex-direction: row;
   position: relative;
+}
 
-
+@media only screen and (max-width: 700px) {
+  .sec2 {
+    flex-direction: column;
+  }
 }
 
 .sec2l{
@@ -74,6 +83,13 @@ body {
   position: sticky;
   top: 0; /* This makes the element stick to the top */
   z-index: 10; /* Optional: to ensure it's above other content */
+}
+
+@media only screen and (max-width: 650px) {
+  .sec2l {
+    width: 100vw;
+    position: relative;
+  }
 }
 
 
@@ -89,6 +105,13 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 650px) {
+  .sec2l1 {
+    height: 30vw;
+    position: relative;
+  }
+}
+
 .sec2l2 {
   height: 46.5vh;
   width: auto;
@@ -102,6 +125,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 .sec2l1 img {
   height: 90%;
@@ -125,6 +149,20 @@ body {
   font-weight: normal;
 }
 
+@media only screen and (max-width: 1200px) {
+  .sec2l2 {
+    font-size: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .sec2l2 {
+    font-size: 80%;
+    display: none;
+  }
+}
+
 .sec2l2bottom {
   text-align: right;
   width: 60%;
@@ -146,6 +184,22 @@ body {
 
 }
 
+@media only screen and (max-width: 650px) {
+  .sec2r {
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sec2r {
+    width: 100vw;
+    max-width: none;
+    height: 80vh;
+  }
+}
+
 .sec2r img {
   position: absolute;
   top: 0;
@@ -156,10 +210,25 @@ body {
 
 }
 
+@media only screen and (max-width: 650px) {
+  .sec2r img {
+    position: relative;
+
+  }
+}
+
 .lineup {
   position: sticky;
   top: 0; /* This makes the element stick to the top */
   z-index: 10; /* Optional: to ensure it's above other content */
+}
+
+
+@media only screen and (max-width: 650px) {
+  .lineup {
+    position: absolute;
+
+  }
 }
 
 .lineupintro {
@@ -167,6 +236,17 @@ body {
   font-size: 600%;
 }
 
+@media only screen and (max-width: 900px) {
+  .lineupintro {
+    font-size: 400%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lineupintro {
+    font-size: 200%;
+  }
+}
 
 
 .lineup1 {
@@ -188,6 +268,24 @@ body {
   cursor: default;
 }
 
+@media only screen and (max-width: 900px) {
+  .rest {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .rest {
+    font-size: 180%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rest {
+    font-size: 150%;
+  }
+}
+
 .rest a {
   color: white;
 }
@@ -201,6 +299,20 @@ body {
   font-size: 200%;
   padding: 0 2% 15% 2%;
   transform: translateY(-130%);
+}
+
+@media only screen and (max-width: 900px) {
+  .announce {
+    font-size: 200%;
+    padding: 0 2% 0 2%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .announce {
+    font-size: 150%;
+    padding: 0 2% 0 2%;
+  }
 }
 
 .sec3 {
@@ -255,6 +367,14 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .title img {
+    height: 110%;
+    width: 110%;
+  }
+}
+
+
 .options1 {
   background-color: white;
   text-decoration: none;
@@ -290,6 +410,14 @@ body {
   padding-top: 30px;
   color:#231f20;
 }
+
+@media only screen and (max-width: 700px) {
+  .title1 {
+    font-size: 120%;
+    text-align: center;
+  }
+}
+
 
 .sec4info {
   font-size: 300%;
@@ -527,6 +655,18 @@ body {
   font-weight: normal;
   max-width: 50%;
   text-align: left;
+}
+
+@media only screen and (max-width: 650px) {
+  .sec4aboutdes {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sec4aboutdes {
+    font-size: 70%;
+  }
 }
 
 .sec4aboutdes p {
