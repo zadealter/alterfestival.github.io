@@ -85,7 +85,7 @@ body {
   z-index: 10; /* Optional: to ensure it's above other content */
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec2l {
     width: 100vw;
     position: relative;
@@ -105,7 +105,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec2l1 {
     height: 30vw;
     position: relative;
@@ -156,7 +156,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec2l2 {
     font-size: 80%;
     display: none;
@@ -184,7 +184,7 @@ body {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec2r {
     width: 100vw;
     max-width: none;
@@ -210,7 +210,7 @@ body {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec2r img {
     position: relative;
 
@@ -224,7 +224,7 @@ body {
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .lineup {
     position: absolute;
 
@@ -274,7 +274,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .rest {
     font-size: 180%;
   }
@@ -308,7 +308,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .announce {
     font-size: 150%;
     padding: 0 2% 0 2%;
@@ -657,7 +657,7 @@ body {
   text-align: left;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .sec4aboutdes {
     font-size: 100%;
   }
