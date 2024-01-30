@@ -1,26 +1,39 @@
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
-overflow: hidden;
-
 
 
 @font-face {
-  font-family: 'Montserrat-regular';
-  src: url('/Users/zade/Desktop/untitledsite/MonumentExtended-Ultrabold.otf') format('truetype');
-
+    font-family: 'Yoxallbi';
+    src: url('YoxallBoldItalic.woff2') format('woff2'),
+        url('YoxallBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
 
-
+@font-face {
+    font-family: 'Yoxallb';
+    src: url('YoxallBold.woff2') format('woff2'),
+        url('YoxallBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
-  font-family: 'Yoxall';
-  src: url('/Users/zade/Desktop/untitledsite/fonts/YOXALL__.TTF') format('truetype');
+    font-family: 'Yoxall';
+    src: url('Yoxall.woff2') format('woff2'),
+        url('Yoxall.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Yoxalli';
+    src: url('YoxallItalic.woff2') format('woff2'),
+        url('YoxallItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
 html {
@@ -35,13 +48,13 @@ a {
 }
 
 body {
-  font-family: 'Yoxall';
+  font-family: 'Yoxalli';
+  font-style: normal;
   background-size: cover;
   max-width: 100%;
   margin: 0px;
   color: #000000;
   height: auto;
-  font-weight: bold;
   z-index: 1;
   position: relative;
   background-color: black;
@@ -71,7 +84,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .sec2 {
     flex-direction: column;
   }
@@ -85,7 +98,7 @@ body {
   z-index: 10; /* Optional: to ensure it's above other content */
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .sec2l {
     width: 100vw;
     position: relative;
@@ -94,18 +107,19 @@ body {
 
 
 .sec2l1 {
+  font-family: 'Yoxalli';
   height: 46.5vh;
   width: auto;
     background-color: #e61864;
   font-size: 150%;
-  font-weight: bold;
+
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .sec2l1 {
     height: 30vw;
     position: relative;
@@ -117,7 +131,7 @@ body {
   width: auto;
   background-color: #a5c844;
   font-size: 140%;
-  font-weight: bold;
+  font-family: 'Yoxalli';
   color: white;
   background-color: black;
   padding: 1%;
@@ -156,7 +170,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .sec2l2 {
     font-size: 80%;
     display: none;
@@ -177,28 +191,22 @@ body {
 .sec2r{
   width: 65vw;
   max-width: 65vw;
-  font-weight: bold;
+  font-family: 'Yoxalli';
   color: white;
   overflow: hidden;
   position: relative;
 
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .sec2r {
     width: 100vw;
     max-width: none;
-    height: 100vh;
+    height: 73vh;
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .sec2r {
-    width: 100vw;
-    max-width: none;
-    height: 80vh;
-  }
-}
+
 
 .sec2r img {
   position: absolute;
@@ -210,7 +218,7 @@ body {
 
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .sec2r img {
     position: relative;
 
@@ -224,7 +232,7 @@ body {
 }
 
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .lineup {
     position: absolute;
 
@@ -234,9 +242,10 @@ body {
 .lineupintro {
   padding: 10% 2% 0 2%;
   font-size: 600%;
+  font-family: 'Yoxallbi';
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .lineupintro {
     font-size: 400%;
   }
@@ -251,7 +260,7 @@ body {
 
 .lineup1 {
   padding: 5% 2% 30% 2%;
-  font-weight: bold;
+  font-family: 'Yoxalli';
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -263,24 +272,19 @@ body {
 
 .rest {
   font-size: 300%;
-  font-weight: normal;
   line-height: 1.3;
   cursor: default;
 }
 
-@media only screen and (max-width: 930px) {
+
+
+@media only screen and (max-width: 760px) {
   .rest {
-    font-size: 200%;
+    font-size: 170%;
   }
 }
 
-@media only screen and (max-width: 930px) {
-  .rest {
-    font-size: 180%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .rest {
     font-size: 150%;
   }
@@ -301,16 +305,16 @@ body {
   transform: translateY(-130%);
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .announce {
     font-size: 200%;
     padding: 0 2% 0 2%;
   }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 520px) {
   .announce {
-    font-size: 150%;
+    font-size: 100%;
     padding: 0 2% 0 2%;
   }
 }
@@ -329,8 +333,18 @@ body {
   justify-content: center;
 }
 
+@media only screen and (max-width: 1400px) {
+  .sec1 {
+    align-items: flex-start;
+    padding: 20vh 0 0 0;
+    height: 73vh;
+  }
+}
+
+
+
 .date{
-  font-weight: bold;
+  font-family: 'Yoxallbi';;
   color: #231f20;
   font-size: 150%;
   padding: 0 0 4vh 0;
@@ -339,7 +353,7 @@ body {
 .options {
   display: flex;
   justify-content: space-around;
-  font-weight: bold;
+  font-family: 'Yoxallbi';;
   color: #231f20;
   font-size: 120%;
   text-decoration: none;
@@ -350,8 +364,14 @@ body {
 .title {
   font-size: 350%;
   padding-bottom: 15px;
-  font-weight: bold;
+  font-family: 'Yoxallbi';;
   width: 60vw;
+}
+
+@media only screen and (max-width: 1400px) {
+  .title {
+    width: 90vw;
+  }
 }
 
 .title a {
@@ -367,12 +387,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 500px) {
-  .title img {
-    height: 110%;
-    width: 110%;
-  }
-}
+
 
 
 .options1 {
@@ -409,11 +424,12 @@ body {
   font-size:150%;
   padding-top: 30px;
   color:#231f20;
+  font-family: 'Yoxallbi';
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .title1 {
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
   }
 }
@@ -425,6 +441,7 @@ body {
   justify-content: center;
   padding: 2% 0 0 0;
   height: 10vh;
+  font-family: 'Yoxallbi';
 }
 
 
@@ -433,7 +450,7 @@ body {
 .marquee-wrapper{
   background:#e61864;
   text-align:center;
-  font-weight: bold;
+  font-family: 'Yoxallbi';;
   font-size: 110%;
   color: white;
   z-index: 5
@@ -475,7 +492,7 @@ body {
   position: absolute;
 }
 .marquee-inner p{
-  font-weight: bold;
+  font-family: 'Yoxallbi';;
   font-size: 200%;
   color: white;
 }
@@ -614,6 +631,20 @@ body {
   color: black;
 }
 
+@media only screen and (max-width: 900px) {
+  .nav3 {
+    font-size: 80%;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav3 {
+    font-size: 60%;
+
+  }
+}
+
 .nav3p {
   padding: 0 2% 0 2%;
   color: black;
@@ -657,7 +688,13 @@ body {
   text-align: left;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
+  .sec4aboutdes {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
   .sec4aboutdes {
     font-size: 100%;
   }
@@ -684,6 +721,7 @@ body {
 .faqtitle {
   font-size: 300%;
   padding-top: 2%;
+  font-family: 'Yoxallbi';
 }
 
 .faq {
@@ -756,7 +794,7 @@ body {
     color:$fact-question-color;
     font-family:$font-sans-family;
     font-size:20px;
-    font-weight:800;
+    font-family: 'Yoxallbi';
     text-transform:uppercase;
     position:relative;
     cursor:pointer;
