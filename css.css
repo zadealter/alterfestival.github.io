@@ -3,7 +3,8 @@
 @font-face {
     font-family: 'Yoxallbi';
     src: url('YoxallBoldItalic.woff2') format('woff2'),
-        url('YoxallBoldItalic.woff') format('woff');
+        url('YoxallBoldItalic.woff') format('woff'),
+        url('YOXALLbi.ttf') format('ttf');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -12,7 +13,8 @@
 @font-face {
     font-family: 'Yoxallb';
     src: url('YoxallBold.woff2') format('woff2'),
-        url('YoxallBold.woff') format('woff');
+        url('YoxallBold.woff') format('woff'),
+        url('YOXALLb_.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -21,7 +23,8 @@
 @font-face {
     font-family: 'Yoxall';
     src: url('Yoxall.woff2') format('woff2'),
-        url('Yoxall.woff') format('woff');
+        url('Yoxall.woff') format('woff'),
+        url('YOXALL__.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -30,7 +33,8 @@
 @font-face {
     font-family: 'Yoxalli';
     src: url('YoxallItalic.woff2') format('woff2'),
-        url('YoxallItalic.woff') format('woff');
+        url('YoxallItalic.woff') format('woff'),
+        url('YOXALLi_.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
